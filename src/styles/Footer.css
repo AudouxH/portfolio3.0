@@ -1,0 +1,32 @@
+.Footer {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.endLine {
+    width: 80vw;
+    height: 3px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+.links {
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link {
+    width: 60px;
+    height: 60px;
+}
+
+.allRight {
+    color: #FFF;
+}
