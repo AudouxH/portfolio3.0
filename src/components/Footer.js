@@ -6,22 +6,13 @@ const Footer = () => {
         <div className='Footer'>
             <div className='endLine'></div>
             <div className='links'>
-                {/* <a>
-                    <img src={images[4]} alt='' className='link' />
-                </a>
-                <a>
-                    <img src={images[6]} alt='' className='link' />
-                </a>
-                <a>
-                    <img src={images[3]} alt='' className='link' />
-                </a> */}
                 <a href='https://github.com/AudouxH' rel="noopener noreferrer" target="_blank">
                     <img src={images[4]} alt='' className='link' />
                 </a>
                 <a href='https://www.malt.fr/profile/hugoaudoux' rel="noopener noreferrer" target="_blank">
                     <img src={images[6]} alt='' className='link' />
                 </a>
-                <a href='https://www.linkedin.com/in/hugo-audoux' rel="noopener noreferrer" target="_blank">
+                <a href='https://www.twitch.tv/audouxh' rel="noopener noreferrer" target="_blank">
                     <img src={images[3]} alt='' className='link' />
                 </a>
             </div>
