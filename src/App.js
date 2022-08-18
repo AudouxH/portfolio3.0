@@ -27,7 +27,7 @@ function App() {
       timeLineRef={timeLineRef}
       topRef={topRef}
       setShowContact={setShowContact}></NavBar>
-      <Centered topRef={topRef}></Centered>
+      <Centered topRef={topRef} aboutMeRef={aboutMeRef}></Centered>
       <AboutMe aboutMeRef={aboutMeRef}></AboutMe>
       <ResumeNumber></ResumeNumber>
       <TimeLine timeLineRef={timeLineRef}></TimeLine>

@@ -58,3 +58,7 @@
 .button:focus {
     border: none;
 }
+
+.button p {
+    white-space: nowrap;
+}

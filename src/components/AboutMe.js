@@ -23,10 +23,10 @@ const AboutMe = ({ aboutMeRef }) => {
                     <a href='https://www.malt.fr/profile/hugoaudoux' rel="noopener noreferrer" target="_blank" className='link-icon'>
                         <img src={images[6]} alt='' className='icon' />
                     </a>
-                    <a href='https://www.linkedin.com/in/hugo-audoux' rel="noopener noreferrer" target="_blank" className='link-icon'>
+                    <a href='https://www.twitch.tv/audouxh' rel="noopener noreferrer" target="_blank" className='link-icon'>
                         <img src={images[3]} alt='' className='icon' />
                     </a>
-                    <a href='https://www.twitch.tv/audouxh' rel="noopener noreferrer" target="_blank" className='link-icon'>
+                    <a href='https://www.linkedin.com/in/hugo-audoux' rel="noopener noreferrer" target="_blank" className='link-icon'>
                         <img src={images[5]} alt='' className='icon' />
                     </a>
                     <a href={myCV} className='link-icon'>

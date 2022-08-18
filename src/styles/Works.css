@@ -15,6 +15,8 @@
 }
 
 .container-work {
+    width: 80vw;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -24,6 +26,7 @@
 
 .image-work {
     width: 40vw;
+    object-fit: cover;
     border: 1px solid #FFF;
 }
 
@@ -54,7 +57,6 @@
 }
 
 .container-tag {
-    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -62,6 +64,8 @@
 
 .tag {
     color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .github-link {

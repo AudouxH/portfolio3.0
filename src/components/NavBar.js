@@ -17,7 +17,6 @@ const NavBar = ({ aboutMeRef, timeLineRef, workRef, topRef, setShowContact }) =>
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
         scrollPosition > 0 ? setOnScroll(true) : setOnScroll(false);
-        console.log(scrollPosition);
 
         return () => {
             window.removeEventListener("scroll", handleScroll);

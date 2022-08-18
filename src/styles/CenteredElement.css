@@ -15,14 +15,14 @@
     align-items: center;
 }
 
-.Container p:nth-child(1) {
+.Container > p:nth-child(1) {
     font-size: 24px;
     color: #212851;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
     border-radius: 7px;
     padding: 5px 20px 5px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .Container p:nth-child(2),
@@ -38,18 +38,26 @@
     margin-top: 20px;
 }
 
-.Container p:nth-child(6) {
+.knowMore {
     width: 200px;
-    font-size: 20px;
     margin-top: 20px;
-    color: #212851;
-    border: 1px solid #FFFFFF;
-    background-color: #FFFFFF;
+    color: #FFF;
+    border: 2px solid #FFF;
+    background-color: #212851;
     border-radius: 7px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
+    padding: 10px 5px 10px 5px;
 }
+
+.knowMore:hover {
+    color: #212851;
+    background-color: #FFF;
+}
+
+.knowMoreText {
+    font-size: 24px;
+    font-weight: 400;
+}
+
 
 .button {
     display: flex;
