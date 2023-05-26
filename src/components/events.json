@@ -1,23 +1,28 @@
 [
     {
       "date": "10 Septembre 2018",
-      "event": "Debut de ma formation à Epitech Lyon"
+      "event": "Beginning studying at epitech"
     },
     {
       "date": "10 Octobre 2019",
-      "event": "Stage chez Cagette Violette"
+      "event": "Internship at Cagette Violette start-up"
     },
     {
       "date": "Septembre 2021",
-      "event": "Co-fondation de l'entreprise Vaulth"
+      "event": "Co-fondation of Vaulth enterprise"
     },
     {
       "date": "Mars - Mai 2022",
-      "event": "Stage dans l'entreprise Cleancall"
+      "event": "Internship into CleanCall enterprise"
     },
     {
       "date": "Juillet 2022",
-      "event": "Obtention du bachelor Epitech"
+      "event": "Getting Epitech bachelor Bac+3"
+    },
+    {
+      "date": "26 August - now",
+      "event": "Studying at Vidzeme University, Latvia"
     }
   ]
+  
   

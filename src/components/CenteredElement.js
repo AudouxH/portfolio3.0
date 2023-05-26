@@ -1,4 +1,4 @@
-import '../styles/CenteredElement.css'
+import '../constants/styles/CenteredElement.css'
 
 const Centered = ({ topRef, aboutMeRef }) => {
     const scrollToAbout = () => aboutMeRef.current.scrollIntoView();
@@ -6,13 +6,13 @@ const Centered = ({ topRef, aboutMeRef }) => {
     return (
         <div className="Centered" ref={topRef}>
             <div className='Container'>
-                <p>Bienvenue sur mon portfolio</p>
-                <p>Developpeur</p>
-                <p>x</p>
-                <p>Streamer</p>
-                <p>Retrouver toutes les informations que vous avez<br />besoin sur moi juste en dessous</p>
+                <p>Welcome on my personal website</p>
+                <p>front-end web/mobile</p>
+                <p>and</p>
+                <p>web 3 developer</p>
+                <p>Get every information you need about me<br />just bellow</p>
                 <button className="knowMore" onClick={() => scrollToAbout()}>
-                    <p className='knowMoreText'>En savoir plus</p>
+                    <p className='knowMoreText'>I want to know more !</p>
                 </button>
             </div>
         </div>

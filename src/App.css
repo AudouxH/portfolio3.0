@@ -1,9 +1,7 @@
 .App {
-  text-align: center;
   background-color: #212851;
-  width: 100vw;
-}
-
-.noScroll {
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,11 +1,11 @@
-import '../styles/Passion.css'
+import '../constants/styles/Passion.css'
 import passions from '../assets/gifs/gifs';
 
 const Passion = () => {
     return (
         <div className='passions'>
             <div className='passionTitle'>
-                <p>Je suis passioné par</p>
+                <p>I'm enthusiast in</p>
             </div>
             <div className="passionList">
                 {

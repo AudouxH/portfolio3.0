@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import '../styles/NavBar.css'
+import '../constants/styles/NavBar.css'
 
-const NavBar = ({ aboutMeRef, timeLineRef, workRef, topRef, setShowContact }) => {
+const NavBar = ({ aboutMeRef, timeLineRef, workRef, topRef }) => {
     const [scrollPosition, setScrollPosition] = useState(0);
     const [onScroll, setOnScroll] = useState(false);
     const scrollToAbout = () => aboutMeRef.current.scrollIntoView();
@@ -36,10 +36,7 @@ const NavBar = ({ aboutMeRef, timeLineRef, workRef, topRef, setShowContact }) =>
                     <p>Experience</p>
                 </button>
                 <button className="button" onClick={() => scrollToWork()}>
-                    <p>Projet</p>
-                </button>
-                <button className="button" onClick={() => setShowContact(true)}>
-                    <p>Contact</p>
+                    <p>Project</p>
                 </button>
             </div>
         </div>

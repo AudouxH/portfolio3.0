@@ -1,4 +1,4 @@
-import '../styles/TimeLine.css'
+import '../constants/styles/TimeLine.css'
 
 import {
     VerticalTimeline,
