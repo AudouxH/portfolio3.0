@@ -1,6 +1,6 @@
 # Welcome to my new portfolio !
-## Here you can find all my projects and skills
-## Feel free to explore :)
+### Here you can find all my projects and skills
+### Feel free to explore :)
 
 ## Getting start with the project:
 - [ ] Clone the repository `git clone git@github.com:AudouxH/portfolio3.0.git`
