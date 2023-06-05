@@ -41,6 +41,7 @@
     flex-direction: column;
     justify-content: space-around;
     margin-top: 70px;
+    z-index: 1;
 }
 
 .explore_section {
@@ -52,7 +53,7 @@
 .explore_button {
     color: #212851;
     border: 2px solid #212851;
-    background-color: #FFF;
+    background-color: transparent;
     border-radius: 7px;
     padding: 10px 30px 10px 30px;
     transition: all .3s;
@@ -97,4 +98,11 @@
 .description {
     width: 100%;
     color: #212851;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import profile_picture from '../assets/sources/hugoAudoux.jpg';
+import images from "../assets/sources/images";
 import '../constants/styles/HomeScreen.css';
 
 const HomeScreen = ({ topRef, aboutMeRef }) => {
@@ -7,7 +7,8 @@ const HomeScreen = ({ topRef, aboutMeRef }) => {
 
     return (
         <div className="homescreen" ref={topRef}>
-            <img src={profile_picture} alt="profile of hugo audoux" className="profile_picture" />
+            <img src={images[9]} alt="background" className="background" />
+            <img src={images[0]} alt="profile of hugo audoux" className="profile_picture" />
             <div className="side_info">
                 <div>
                     <p className="title">Hi there, my name is Hugo Audoux !</p>

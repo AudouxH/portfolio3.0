@@ -7,6 +7,7 @@ import linkedin from './linkedin.png'
 import malt from './Logo-Malt.png'
 import Epitech from './Epitech.jpg';
 import Raspberry from './Raspberry-Pi.jpg'
+import background from './background.jpg';
 
 const images = [
     pictureOfMe,
@@ -17,7 +18,8 @@ const images = [
     linkedin,
     malt,
     Epitech,
-    Raspberry
+    Raspberry,
+    background
 ]
 
 export default images;

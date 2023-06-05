@@ -49,7 +49,7 @@ const Works = ({ workRef }) => {
                 title="NFC Manager" description="Currently on a NFC Manager project to understand how NFC Tags work and trying to put password security on it.
                 This acheivement will able me to create a secure tag certification for real artworks.
                 It will be implement on our years end project Vaulth."
-                tags={["React Native", "Near field communication",]} link='https://github.com/AudouxH/soundbox4stream'></Work>
+                tags={["React Native", "Near field communication",]} link='https://github.com/AudouxH/NFC-Manager'></Work>
             
         </div>
     );

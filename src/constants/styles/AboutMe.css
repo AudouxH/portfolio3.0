@@ -1,7 +1,7 @@
 .aboutme {
     position: relative;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,6 @@
     color: #fff;
     font-size: 36px;
     text-align: center;
-    margin-bottom: 70px;
 }
 
 .about-section {
@@ -22,6 +21,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 70px;
 }
 
 .aboutme .image {
