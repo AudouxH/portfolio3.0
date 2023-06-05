@@ -31,28 +31,41 @@
 }
 
 .button {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 550;
     color: #FFF;
     background-color: #212851;
-    padding: 5px 15px 5px 15px;
+    border-radius: 7px;
+    padding: 10px 30px 10px 30px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
     border: none;
-    border-radius: 5px;
 }
 
 .button:hover {
-    text-decoration: none;
     color: #212851;
+    border: none;
     background-color: #FFF;
-    padding: 5px 15px 5px 15px;
-    border-radius: 5px;
 }
 
-.button:focus {
-    border: none;
+.button:before {
+    content: '';
+    color: #FFF;
+    background-color: #212851;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    transform: translateX(-100%) rotate(45deg);
+    transition: all .3s;
+}
+
+.button:hover:before {
+    transform: translateX(100%) rotate(45deg);
 }
 
 .button p {
     white-space: nowrap;
+    font-size: 20px;
+    font-weight: 400;
 }
