@@ -5,7 +5,7 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #212851;
     z-index: 10;
@@ -21,6 +21,7 @@
     font-weight: 600;
     background-color: #212851;
     border: none;
+    margin-left: 70px;
 }
 
 .Buttons {
@@ -28,6 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-right: 30px;
 }
 
 .button {
