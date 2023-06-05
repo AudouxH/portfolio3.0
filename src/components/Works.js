@@ -10,7 +10,7 @@ const Works = ({ workRef }) => {
             <div className='container-work'>
                 <img src={source} alt="work" className='image-work' />
                 <div className='container-description'>
-                    <p className='title'>{title}</p>
+                    <p className='title-description'>{title}</p>
                     <p className='description'>{description}</p>
                     <div className='other-container'>
                         <a className='github-link' href={link} rel="noopener noreferrer" target="_blank">View on github</a>
@@ -30,6 +30,7 @@ const Works = ({ workRef }) => {
 
     return (
         <div className='Works' ref={workRef}>
+            <p className='title'>Projects</p>
 
             <Work source={Vaulth}
                 title="Vaulth" description="

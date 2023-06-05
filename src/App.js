@@ -1,19 +1,22 @@
-import './App.css';
+import { useRef } from "react";
+
 import AboutMe from './components/AboutMe';
-import Centered from './components/CenteredElement';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
-import Passion from './components/Passion';
-import ResumeNumber from './components/ResumeNumber';
 import TimeLine from './components/TimeLine';
 import Works from './components/Works';
-import { useRef } from "react";
+import Github from './components/Github';
+
+import HomeScreen from './components/HomeScreen';
+
+import './App.css';
 
 function App() {
   const aboutMeRef = useRef(null);
   const timeLineRef = useRef(null);
   const workRef = useRef(null);
   const topRef = useRef(null);
+  const githubRef = useRef(null);
 
   return (
     <div className="App">
@@ -22,32 +25,30 @@ function App() {
         aboutMeRef={aboutMeRef}
         workRef={workRef}
         timeLineRef={timeLineRef}
-        topRef={topRef}>
+        topRef={topRef}
+        githubRef={githubRef}>
       </NavBar>
 
-      <Centered
+      <HomeScreen
         topRef={topRef}
         aboutMeRef={aboutMeRef}>
-      </Centered>
+      </HomeScreen>
 
       <AboutMe
         aboutMeRef={aboutMeRef}>
       </AboutMe>
 
-      <ResumeNumber>
-      </ResumeNumber>
+      <Github
+        githubRef={githubRef}>
+      </Github>
 
       <TimeLine
         timeLineRef={timeLineRef}>
-
       </TimeLine>
 
       <Works
         workRef={workRef}>
       </Works>
-
-      <Passion>
-      </Passion>
 
       <Footer>
       </Footer>

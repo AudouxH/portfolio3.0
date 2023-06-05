@@ -5,6 +5,8 @@ import twitch from './twitch.png'
 import github from './github-sign.png'
 import linkedin from './linkedin.png'
 import malt from './Logo-Malt.png'
+import Epitech from './Epitech.jpg';
+import Raspberry from './Raspberry-Pi.jpg'
 
 const images = [
     pictureOfMe,
@@ -13,7 +15,9 @@ const images = [
     twitch,
     github,
     linkedin,
-    malt
+    malt,
+    Epitech,
+    Raspberry
 ]
 
 export default images;

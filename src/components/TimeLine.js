@@ -11,13 +11,14 @@ import events from "./events.json";
 const TimeLine = ({timeLineRef}) => {
 
     return (
-        <div className="TimeLine" ref={timeLineRef}>
+        <div className="timeline" ref={timeLineRef}>
+            <p className='title'>Experience</p>
             <VerticalTimeline>
                 {events.map((event, index) => (
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         date={event.date}
-                        iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+                        iconStyle={{ background: "#212851", color: "#212851" }}
                         key={index}>
                         <h3
                             className="vertical-timeline-element-title"

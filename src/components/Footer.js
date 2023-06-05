@@ -4,7 +4,6 @@ import images from '../assets/sources/images';
 const Footer = () => {
     return (
         <div className='Footer'>
-            <div className='endLine'></div>
             <div className='links'>
                 <a href='https://www.linkedin.com/in/hugo-audoux/' rel="noopener noreferrer" target="_blank">
                     <img src={images[5]} alt='' className='link' />

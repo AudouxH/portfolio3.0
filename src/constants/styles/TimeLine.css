@@ -1,21 +1,29 @@
 .vertical-timeline-element-date {
-    width: 28% !important;
+    width: 100% !important;
     color: #FFF;
     opacity: 1 !important;
 }
 
-.TimeLine {
+.vertical-timeline-element-title {
+    text-align: center;
+}
+
+.timeline {
     position: relative;
     width: 100vw;
     height: 110vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #212851;
+    padding-bottom: 70px;
 }
 
-.space {
-    height: 1px;
-    width: 100%;
-    margin-top: 10px;
+.timeline .title {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
