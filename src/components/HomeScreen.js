@@ -2,7 +2,7 @@ import React from "react";
 import images from "../assets/sources/images";
 import '../constants/styles/HomeScreen.css';
 
-const HomeScreen = ({ topRef, aboutMeRef }) => {
+const Home = ({ topRef, aboutMeRef }) => {
     const scrollToAbout = () => aboutMeRef.current.scrollIntoView();
 
     return (
@@ -24,4 +24,4 @@ const HomeScreen = ({ topRef, aboutMeRef }) => {
     );
 }
 
-export default HomeScreen;
+export default Home;

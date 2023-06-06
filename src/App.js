@@ -1,57 +1,33 @@
 import { useRef } from "react";
-
-import AboutMe from './components/AboutMe';
-import Footer from './components/Footer';
-import NavBar from './components/NavBar';
-import TimeLine from './components/TimeLine';
-import Works from './components/Works';
-import Github from './components/Github';
-
-import HomeScreen from './components/HomeScreen';
-
 import './App.css';
 
+// screens
+import HomeScreen from "./screens/home";
+import AboutScreen from "./screens/about";
+import NavigationBar from "./components/navigation-bar";
+
 function App() {
+  const homeRef = useRef(null);
   const aboutMeRef = useRef(null);
-  const timeLineRef = useRef(null);
-  const workRef = useRef(null);
-  const topRef = useRef(null);
   const githubRef = useRef(null);
+  const timeLineRef = useRef(null);
+  const projectsRef = useRef(null);
 
   return (
     <div className="App">
-
-      <NavBar
+      <NavigationBar
+        homeRef={homeRef}
         aboutMeRef={aboutMeRef}
-        workRef={workRef}
+        githubRef={githubRef}
         timeLineRef={timeLineRef}
-        topRef={topRef}
-        githubRef={githubRef}>
-      </NavBar>
+        projectsRef={projectsRef}/>
 
       <HomeScreen
-        topRef={topRef}
-        aboutMeRef={aboutMeRef}>
-      </HomeScreen>
+        homeRef={homeRef}
+        aboutMeRef={aboutMeRef} />
 
-      <AboutMe
-        aboutMeRef={aboutMeRef}>
-      </AboutMe>
-
-      <Github
-        githubRef={githubRef}>
-      </Github>
-
-      <TimeLine
-        timeLineRef={timeLineRef}>
-      </TimeLine>
-
-      <Works
-        workRef={workRef}>
-      </Works>
-
-      <Footer>
-      </Footer>
+      <AboutScreen
+        aboutMeRef={aboutMeRef}/>
 
     </div>
   );

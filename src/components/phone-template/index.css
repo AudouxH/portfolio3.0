@@ -1,0 +1,14 @@
+.phone-template {
+    width: 200px;
+    height: 380px;
+    border-bottom: 40px solid black;
+    border-top: 25px solid black;
+    border-right: 10px solid black;
+    border-left: 10px solid black;
+    border-radius: 20px;
+}
+
+.phone-img {
+    width: 200px;
+    height: 380px;
+}

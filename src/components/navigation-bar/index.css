@@ -1,0 +1,32 @@
+.navigation-bar {
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212851;
+    z-index: 10;
+}
+
+.add-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.btnTitle {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #212851;
+    border: none;
+    margin-left: 70px;
+}
+
+.Buttons {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 30px;
+}

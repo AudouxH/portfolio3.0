@@ -1,0 +1,23 @@
+.homeScreen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.side_info {
+    height: 150px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.button_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

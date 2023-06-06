@@ -1,0 +1,16 @@
+.laptop-template {
+    width: 640px;
+    height: 360px;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    border-bottom: 25px solid black;
+    border-left: 10px solid black;
+    border-radius: 20px;
+}
+
+.laptop-img {
+    width: 640px;
+    height: 360px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
