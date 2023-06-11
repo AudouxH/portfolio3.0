@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #212851;
+    background-color: #141099;
     z-index: 10;
 }
 
@@ -19,7 +19,7 @@
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 600;
-    background-color: #212851;
+    background-color: #141099;
     border: none;
     margin-left: 70px;
 }
@@ -34,7 +34,7 @@
 
 .button {
     color: #FFF;
-    background-color: #212851;
+    background-color: #141099;
     border-radius: 7px;
     padding: 10px 30px 10px 30px;
     transition: all .3s;
@@ -44,7 +44,7 @@
 }
 
 .button:hover {
-    color: #212851;
+    color: #141099;
     border: none;
     background-color: #FFF;
 }
@@ -52,7 +52,7 @@
 .button:before {
     content: '';
     color: #FFF;
-    background-color: #212851;
+    background-color: #141099;
     top: 0;
     left: 0;
     width: 100%;

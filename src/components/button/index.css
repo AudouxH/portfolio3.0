@@ -1,23 +1,27 @@
 .button_component {
-    color: #212851;
-    border: 2px solid #212851;
+    color: #141099;
+    border: 2px solid #141099;
     background-color: transparent;
     border-radius: 7px;
     padding: 10px 30px 10px 30px;
     transition: all .3s;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .button_component:hover {
     color: #FFF;
     border: 2px solid #FFF;
-    background-color: #212851;
+    background-color: #141099;
 }
 
 .button_component:before {
     content: '';
-    color: #212851;
+    color: #141099;
     background-color: #FFF;
     top: 0;
     left: 0;
@@ -42,14 +46,16 @@
     border: none;
     background-color: transparent;
     border-radius: 7px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 20px 10px 20px;
     transition: all .3s;
     position: relative;
     overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .button_component_reverse:hover {
-    color: #212851;
+    color: #141099;
     border: none;
     background-color: #FFF;
 }
@@ -57,7 +63,7 @@
 .button_component_reverse:before {
     content: '';
     color: #FFF;
-    background-color: #212851;
+    background-color: #141099;
     top: 0;
     left: 0;
     width: 100%;

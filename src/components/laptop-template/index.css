@@ -1,6 +1,6 @@
 .laptop-template {
     width: 640px;
-    height: 360px;
+    height: 320px;
     border-top: 10px solid black;
     border-right: 10px solid black;
     border-bottom: 25px solid black;
@@ -10,7 +10,7 @@
 
 .laptop-img {
     width: 640px;
-    height: 360px;
+    height: 320px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }

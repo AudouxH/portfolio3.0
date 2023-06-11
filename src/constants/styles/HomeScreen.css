@@ -30,7 +30,7 @@
     animation-direction: alternate;
     animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
     animation-iteration-count: infinite;
-    border: 2px solid #212851;
+    border: 2px solid #141099;
     margin-top: 70px;
 }
 
@@ -51,8 +51,8 @@
 }
 
 .explore_button {
-    color: #212851;
-    border: 2px solid #212851;
+    color: #141099;
+    border: 2px solid #141099;
     background-color: transparent;
     border-radius: 7px;
     padding: 10px 30px 10px 30px;
@@ -64,12 +64,12 @@
 .explore_button:hover {
     color: #FFF;
     border: 2px solid #FFF;
-    background-color: #212851;
+    background-color: #141099;
 }
 
 .explore_button:before {
     content: '';
-    color: #212851;
+    color: #141099;
     background-color: #FFF;
     top: 0;
     left: 0;
@@ -92,12 +92,12 @@
 .homescreen .title {
     width: 100%;
     font-size: 30px;
-    color: #212851;
+    color: #141099;
 }
 
 .description {
     width: 100%;
-    color: #212851;
+    color: #141099;
 }
 
 .background {

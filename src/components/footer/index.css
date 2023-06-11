@@ -1,6 +1,6 @@
-.Footer {
+.footer-component {
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

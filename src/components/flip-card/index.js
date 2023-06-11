@@ -5,12 +5,12 @@ import images from "../../assets/sources/images";
 
 const FlipCard = () => {
     return (
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
+        <div className="flip-card">
+            <div className="flip-card-inner">
+                <div className="flip-card-front">
                     <img src={images.Raspberry} alt="Raspberry Pi 3" className='flip-card-img' />
                 </div>
-                <div class="flip-card-back">
+                <div className="flip-card-back">
                     <img src={images.Epitech} alt="Epitech logo" className='flip-card-img' />
                 </div>
             </div>

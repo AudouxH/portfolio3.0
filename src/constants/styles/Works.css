@@ -7,7 +7,7 @@
 }
 
 .Works .title {
-    color: #212851;
+    color: #141099;
     font-size: 36px;
     text-align: center;
     margin-top: 70px;
@@ -34,7 +34,7 @@
 .image-work {
     width: 35vw;
     object-fit: cover;
-    border: 1px solid #212851;
+    border: 1px solid #141099;
 }
 
 .container-description {
@@ -47,13 +47,13 @@
 
 .title-description {
     font-size: 32px;
-    color: #212851;
+    color: #141099;
 }
 
 .description {
     width: 80%;
     font-size: 20px;
-    color: #212851;
+    color: #141099;
 }
 
 .other-container {
@@ -71,7 +71,7 @@
 }
 
 .tag {
-    color: #212851;
+    color: #141099;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -79,7 +79,7 @@
 .github-link {
     text-decoration: none;
     color: #FFF;
-    background-color: #212851;
+    background-color: #141099;
     padding: 8px;
     border-radius: 5px;
 }

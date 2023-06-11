@@ -9,7 +9,7 @@ const Description = ({ text, isTextTab, isColored, isWhite }) => {
                     <p
                         key={index}
                         className="description_component"
-                        style={isColored ? { color: '#212851' } : isWhite ? { color: '#FFF' } : { color: '#000' }}
+                        style={isColored ? { color: '#141099' } : isWhite ? { color: '#FFF' } : { color: '#000' }}
                     >
                         <>{text}</>
                         <br />
@@ -17,7 +17,7 @@ const Description = ({ text, isTextTab, isColored, isWhite }) => {
                 )
             }) :
             <p className="description_component"
-                style={isColored ? { color: '#212851' } : isWhite ? { color: '#FFF' } : { color: '#000' }}>
+                style={isColored ? { color: '#141099' } : isWhite ? { color: '#FFF' } : { color: '#000' }}>
                 {text}
             </p>
     );

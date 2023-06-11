@@ -1,0 +1,19 @@
+.timelineScreen {
+    width: 100vw;
+    height: 100vh;
+    background-color: #141099;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vertical-timeline-element-date {
+    width: 100% !important;
+    color: #FFF;
+    opacity: 1 !important;
+}
+
+.vertical-timeline-element-title {
+    text-align: center;
+}

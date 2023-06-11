@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import './index.css';
 import Button from "../button";
 
-const NavigationBar = ({ homeRef, aboutMeRef, timeLineRef, workRef, githubRef }) => {
+const NavigationBar = ({ homeRef, aboutMeRef, timeLineRef, projectsRef, githubRef }) => {
     const [scrollPosition, setScrollPosition] = useState(0);
     const [onScroll, setOnScroll] = useState(false);
     const scrollToAbout = () => aboutMeRef.current.scrollIntoView();
     const scrollToTimeLine = () => timeLineRef.current.scrollIntoView();
-    const scrollToWorks = () => workRef.current.scrollIntoView();
+    const scrollToWorks = () => projectsRef.current.scrollIntoView();
     const scrollToHome = () => homeRef.current.scrollIntoView();
     const scrollToGithub = () => githubRef.current.scrollIntoView();
 

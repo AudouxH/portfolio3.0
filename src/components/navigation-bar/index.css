@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #212851;
+    background-color: #141099;
     z-index: 10;
 }
 
@@ -18,13 +18,12 @@
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 600;
-    background-color: #212851;
+    background-color: #141099;
     border: none;
     margin-left: 70px;
 }
 
 .Buttons {
-    width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
