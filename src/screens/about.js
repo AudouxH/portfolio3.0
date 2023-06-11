@@ -4,7 +4,7 @@ import Description from "../components/description";
 import FlipCard from '../components/flip-card';
 import Title from "../components/title";
 
-import '../assets/styles/screens/about.css';
+import '../assets/styles/about.css';
 
 const AboutScreen = ({ aboutMeRef }) => {
     return (

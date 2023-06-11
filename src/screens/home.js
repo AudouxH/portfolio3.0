@@ -5,7 +5,7 @@ import Description from "../components/description";
 import Button from "../components/button";
 import Title from "../components/title";
 
-import '../assets/styles/screens/home.css';
+import '../assets/styles/home.css';
 
 const HomeScreen = ({ homeRef, aboutMeRef }) => {
     const scrollToAbout = () => aboutMeRef.current.scrollIntoView();
